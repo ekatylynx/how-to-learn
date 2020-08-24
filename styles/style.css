@@ -5,6 +5,7 @@ body, h1, h2, h3, h4, p, a, ul {
 }
 div {
   border: 1px solid red;
+
 }
 
 a {
@@ -141,12 +142,13 @@ a {
 .two-columns__span-accent {
   font-weight: bold;
 }
-                              /* Третья страница digits */
+                              /* Третья страница techniques */
 
 .techniques {
+  padding-bottom: 40px;
   width: 80%;
   display: flex;
-  margin: 100px auto 0 auto;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
 }
@@ -157,7 +159,7 @@ a {
   flex-wrap: wrap;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-top: 60px;
 }
 
 .cards__item {
@@ -172,7 +174,6 @@ a {
 
 
 .cards__image {
-  margin-top: 60px;
   margin-right: 40px;
   margin-left: 40px;
   border-radius: 50%;
@@ -191,6 +192,39 @@ a {
 .cards__description {
   line-height: 23px;
   font-size: 18px;
+}
+
+                              /* Третья страница video */
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+.video__iframes {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: -40px;
+}
+
+.video__iframe {
+  border: 0;
+  width: 560px;
+  height: 315px;
+}
+
+.video__iframe:last-of-type {
+  margin-left: 20px;
+}
+
+                              /* Третья страница oakley */
+
+.oakley {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
 }
 
                               /* Третья страница digits */
