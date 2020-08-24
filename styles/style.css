@@ -94,9 +94,6 @@ a {
   top: 64px;
   position: absolute;
   background: #2f80ed;
-}
-
-.header__square-pic_rotation {
   animation: rotation 20s linear infinite;
 }
 
