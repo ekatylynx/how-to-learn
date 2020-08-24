@@ -227,6 +227,49 @@ a {
   background-color: #f2f2f2;
 }
 
+                              /* Третья страница feynman */
+
+.feynman {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-size: 867px 637px;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 790px;
+  margin-bottom: 100px;
+}
+
+.feynman__title {
+  text-align: center;
+  width: 648px;
+  margin: 0 auto;
+  z-index: 2;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: 70px auto 0;
+  z-index: 2;
+  line-height: 51px;
+  font-size: 36px;
+}
+
+.feynman__link {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  color: #000;
+}
+
                               /* Третья страница digits */
 
 .digits {
@@ -277,48 +320,6 @@ a {
   margin-top: 20px;
 }
 
-                              /* Четвертая страница feyman */
-
-.feynman {
-  display: flex;
-  flex-direction: column;
-  padding-top: 100px;
-  background-color: #f2f2f2;
-  background-image: url(../images/feynman.png);
-  background-size: 867px 637px;
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  position: relative;
-  min-height: 790px;
-}
-
-.feynman__title {
-  text-align: center;
-  width: 648px;
-  margin: 0 auto;
-  z-index: 2;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-}
-
-.feynman__subtitle {
-  text-align: center;
-  margin: 70px auto 0;
-  z-index: 2;
-  line-height: 51px;
-  font-size: 36px;
-}
-
-.feynman__link {
-  z-index: 2;
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  line-height: 51px;
-  font-size: 36px;
-  color: #000;
-}
 
                               /* Пятая страница kaufman */
 
