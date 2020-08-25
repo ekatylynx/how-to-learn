@@ -20,6 +20,10 @@ a {
   }
 }
 
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -101,7 +105,6 @@ a {
   top: 64px;
   position: absolute;
   background: #2f80ed;
-  animation: rotation 20s linear infinite;
 }
 
                               /* Вторая страница description */
@@ -460,7 +463,6 @@ a {
 }
 
 .kaufman__triangle {
-  animation: rotation 20s linear infinite;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   background-repeat: no-repeat;
