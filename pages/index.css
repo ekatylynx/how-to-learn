@@ -24,6 +24,7 @@
   /* Темная тема для блока section-title/subtitle */
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
 @import url(../blocks/techniques/cards/cards.css);
 @import url(../blocks/techniques/cards/__item/cards__item.css);
 @import url(../blocks/techniques/cards/__item/__image/cards__image.css);
