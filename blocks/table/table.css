@@ -1,5 +1,7 @@
 .table {
+  padding: 0;
   margin: 0 auto;
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
   align-content: center;
